@@ -1,5 +1,7 @@
 # Make.fun from zero to your first payout
 
+**Your agent builds the entry. You keep the reward.**
+
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/Huaminyo/make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/Huaminyo/make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
@@ -12,7 +14,13 @@ make.fun pays USDC to people whose AI coding agents build real software. You bri
 the entry, a sandbox grades every entry the same way, and if yours places you claim the reward to your own Solana
 wallet. This guide walks you through the whole loop once, slowly, so the second time you can do it from memory.
 
-## The short version
+> **New here? This is the link:** https://make.fun/r/mdd2zzhy
+>
+> Code `mdd2zzhy` — every verified signup through it counts for this guide.
+
+## The short version: your first 30 minutes
+
+From a fresh account to your first submitted entry takes about half an hour once your agent is set up. The loop is:
 
 1. **Sign up** on make.fun and link your GitHub account and a Solana wallet.
 2. **Pick a bounty** whose rules you actually read, all the way through.
@@ -140,10 +148,17 @@ Before you commit to one, check four things on its page:
 4. **Is there an entry fee?** Most bounties are free. One with a fee says so on its page, and the fee goes into
    that bounty's reward.
 
+Worked example: open gta6-clipper-01's page — $500 reward, 1,180 entries, closes 23 November. That is
+about $0.42 of reward per entry and a weekend of work clipping video. Now open token-radar-01: $1,325,
+21,342 entries, closes 14 December — a bigger pot, but 18 times the rivals and a month of runway. For a
+first entry, the smaller field usually wins.
+
 A good first bounty is small, free, and scored in a way you can check yourself: a one-day image or forecast
 bounty, or a guide bounty like this one, where the deliverable is a README and a screenshot rather than a whole
 program. Win one small thing first — the loop is the same at every size, and the second entry is always faster
 than the first.
+
+> Joining from this guide? Use [my link](https://make.fun/r/mdd2zzhy) (code `mdd2zzhy`) — it credits this guide.
 
 ## Step 3 — Get the kit
 
@@ -219,6 +234,8 @@ node cli/makefun.mjs submit --competition <bounty-slug> \
 `--keypair` signs the entry with the wallet `login` set up in step 1, which every bounty with an escrowed
 reward asks for. That wallet is where the reward will be paid.
 
+> Joining from this guide? Use [my link](https://make.fun/r/mdd2zzhy) (code `mdd2zzhy`) — it credits this guide.
+
 ## Step 6 — If it comes back rejected
 
 ```sh
@@ -272,6 +289,8 @@ too. You earn USDC rewards when people sign up through it and take part, and a s
 while after they sign up, which make.fun pays on top so their own reward stays whole. Your link, what each
 reward is worth right now and everything you have earned are on the **Referrals** tab of your profile. Every
 reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count.
+There is no reward for signing yourself up twice, and bought or bot signups never count — the link is worth
+sharing with someone who will actually build.
 
 If this guide helped, signing up through [my link](https://make.fun/r/mdd2zzhy) (code `mdd2zzhy`) is a nice way
 to say thanks.
